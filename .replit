@@ -27,3 +27,12 @@ args = "python 'Вправа-20.py'"
 
 [workflows.workflow.metadata]
 outputType = "console"
+
+[[workflows.workflow]]
+name = "Вправе 20"
+mode = "sequential"
+author = 55933380
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python Вправа-20.py"
